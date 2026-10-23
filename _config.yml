@@ -59,11 +59,18 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Astrophysics PhD Student."
   location: "Madrid, Spain"
+  email: celmer@ucm.es
   github: "k3lss"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:celmer@ucm.es"
+    - label: "CV"
+      icon: "far fa-fw fa-file-pdf"
+      url: "/assets/files/CV.pdf"
+    - label: "Google Scholar"
+      icon: "fas fa-brands fa-google-scholar" 
+      url: "https://scholar.google.com/citations?user=ZoPEG8EAAAAJ&hl=es"
+    - label: "ORCiD"
+      icon: "fab fa-brands fa-orcid"
+      url: "https://orcid.org/0009-0000-8796-271X"
     
 footer:
   links:
@@ -73,6 +80,12 @@ footer:
     - label: "Linkedin"
       icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/celia-merino-leon"
+    - label: "Google Scholar"
+      icon: "fas fa-brands fa-google-scholar" 
+      url: "https://scholar.google.com/citations?user=ZoPEG8EAAAAJ&hl=es"
+    - label: "ORCiD"
+      icon: "fab fa-brands fa-orcid"
+      url: "https://orcid.org/0009-0000-8796-271X"
 
 defaults:
   # _posts
