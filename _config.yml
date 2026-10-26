@@ -71,6 +71,9 @@ author:
     - label: "ORCiD"
       icon: "fab fa-brands fa-orcid"
       url: "https://orcid.org/0009-0000-8796-271X"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/celia-merino-leon"
     
 footer:
   links:
