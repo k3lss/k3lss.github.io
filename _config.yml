@@ -62,9 +62,9 @@ author:
   email: celmer@ucm.es
   github: "k3lss"
   links:
-    #- label: "CV"
-    #  icon: "far fa-fw fa-file-pdf"
-    #  url: "/assets/files/CV.pdf"
+    - label: "CV"
+      icon: "far fa-fw fa-file-pdf"
+      url: "/assets/files/CV.pdf"
     - label: "Google Scholar"
       icon: "fas fa-brands fa-google-scholar" 
       url: "https://scholar.google.com/citations?user=ZoPEG8EAAAAJ&hl=es"
