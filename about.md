@@ -21,5 +21,7 @@ Before my PhD, I worked on primordial non-Gaussianities (PNG) in the large-scale
 - MSc in Theoretical Physics, Universidad Complutense de Madrid, 2025
 - BSc in Physics, Universidad Complutense de Madrid, 2024
 
+You can download my full [CV (PDF)]({{ '/assets/files/CV.pdf' | relative_url }}).
+
 ### Contact
 Email: [celmer@ucm.es](mailto:celmer@ucm.es)
