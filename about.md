@@ -6,18 +6,20 @@ author_profile: true
 classes: wide
 ---
 
+I am a PhD student in Astrophysics at the Universidad Complutense de Madrid, working with Dr. Shane P. O'Sullivan. My research uses the polarized emission of radio galaxies to test for cosmic birefringence through the *standard crosses* method. I am also developing Machine Learning tools for the large-scale classification of radio galaxies, to improve the samples used in this analysis.
+
+Before my PhD, I worked on primordial non-Gaussianities (PNG) in the large-scale structure of the Universe. During my Master's thesis at CIEMAT, under the supervision of Dr. Santiago Ávila Pérez, I used state-of-the-art cosmological simulations to show that unclustered (bias-zero) tracers do not respond to PNG, a result [published in *Astronomy & Astrophysics*](https://doi.org/10.1051/0004-6361/202558825). More details on my [research page]({{ '/research/' | relative_url }}).
+
 ### Research interests
-- Radioastronomy
+- Radio astronomy and polarization
 - Cosmic birefringence
-- Primordial Non-Gaussianities
+- Primordial non-Gaussianities
+- Machine Learning for astronomy
 
-### Background
-MSc in Theoretical Physics, Universidad Complutense de Madrid, 2025
-
-BSc in Physics, Universidad Complutense de Madrid, 2024
-
-I carried out my Master's Thesis at CIEMAT under the supervision of Dr. Santiago Ávila Pérez, during which I strengthened my Python skills by working with state-of-the-art cosmological simulations focused on the study of Primordial Non-Gaussianities (PNG). We later extended and refined this work, [which was eventually published in *Astronomy & Astrophysics*](https://www.aanda.org/articles/aa/full_html/2026/03/aa58825-25/aa58825-25.html).
-I am currently a PhD student at the Universidad Complutense de Madrid, under the supervision of Dr. Shane P. O'Sullivan. My thesis focuses on using polarized emission from radio galaxies to study cosmic birefringence through the so-called *standard crosses* method. In addition, I will develop Machine Learning-based procedures for the large-scale classification of radio galaxies, with the aim of improving the results obtained with *standard crosses*.
+### Education
+- PhD in Astrophysics, Universidad Complutense de Madrid, 2026–present
+- MSc in Theoretical Physics, Universidad Complutense de Madrid, 2025
+- BSc in Physics, Universidad Complutense de Madrid, 2024
 
 ### Contact
 Email: [celmer@ucm.es](mailto:celmer@ucm.es)
