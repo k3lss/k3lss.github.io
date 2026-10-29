@@ -3,8 +3,11 @@ main:
     url: /
   - title: "Research"
     url: /research/
+  - title: "Publications"
+    url: /publications/
+  - title: "Talks & Posters"
+    url: /talks/
+  - title: "News"
+    url: /news/
   - title: "Gallery"
     url: /gallery/
-  - title: "Posts"
-    url: /posts/
-  

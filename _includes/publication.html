@@ -1,0 +1,17 @@
+{% comment %}
+  One publication from _data/publications.yml, as a list item.
+  Usage: {% include publication.html paper=paper %}
+{% endcomment %}
+{% assign paper = include.paper %}
+{% assign me = site.data.publications.me %}
+{% assign me_bold = "<strong>" | append: me | append: "</strong>" %}
+<li>
+  {{ paper.authors | replace: me, me_bold }} ({{ paper.year }}).
+  {{ paper.title }}.
+  <em>{{ paper.journal }}</em>{% if paper.volume %}, {{ paper.volume }}{% endif %}{% if paper.pages %}, {{ paper.pages }}{% endif %}.
+  {% if paper.note %}({{ paper.note }}){% endif %}
+  <br>
+  {% if paper.doi %}<a href="https://doi.org/{{ paper.doi }}">DOI</a>{% endif %}
+  {% if paper.arxiv %} · <a href="https://arxiv.org/abs/{{ paper.arxiv }}">arXiv:{{ paper.arxiv }}</a>{% endif %}
+  {% if paper.code %} · <a href="{{ paper.code }}">Code</a>{% endif %}
+</li>

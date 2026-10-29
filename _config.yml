@@ -16,7 +16,12 @@
 title: Celia Merino León, PhD student
 email: celmer@ucm.es
 description: >- # this means to ignore newlines until "baseurl:"
-  Personal website for Celia Merino León
+  Personal website of Celia Merino León, PhD student in Astrophysics
+  at the Universidad Complutense de Madrid.
+url: "https://k3lss.github.io"
+baseurl: ""
+og_image: "/assets/images/share-card.jpg"
+og_image_alt: "Celia Merino León, PhD student in Astrophysics at the Universidad Complutense de Madrid"
 github_username: k3lss
 minimal_mistakes_skin: ["dark"]
 search: true
@@ -57,7 +62,7 @@ plugins:
 author:
   name   : "Celia Merino"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Astrophysics PhD Student."
+  bio    : "PhD student in Astrophysics<br>Dept. de Física de la Tierra y Astrofísica, Universidad Complutense de Madrid<br>Member of [GUAIX](https://guaix.ucm.es/)"
   location: "Madrid, Spain"
   email: celmer@ucm.es
   github: "k3lss"
@@ -71,6 +76,12 @@ author:
     - label: "ORCiD"
       icon: "fab fa-brands fa-orcid"
       url: "https://orcid.org/0009-0000-8796-271X"
+    - label: "NASA ADS"
+      icon: "ai ai-fw ai-ads"
+      url: "https://ui.adsabs.harvard.edu/search/q=orcid%3A0009-0000-8796-271X&sort=date%20desc"
+    - label: "arXiv"
+      icon: "ai ai-fw ai-arxiv"
+      url: "https://arxiv.org/a/merino_c_1"
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/celia-merino-leon"
@@ -89,19 +100,26 @@ footer:
     - label: "ORCiD"
       icon: "fab fa-brands fa-orcid"
       url: "https://orcid.org/0009-0000-8796-271X"
+    - label: "NASA ADS"
+      icon: "ai ai-fw ai-ads"
+      url: "https://ui.adsabs.harvard.edu/search/q=orcid%3A0009-0000-8796-271X&sort=date%20desc"
+    - label: "arXiv"
+      icon: "ai ai-fw ai-arxiv"
+      url: "https://arxiv.org/a/merino_c_1"
 
 defaults:
-  # _posts
+  # _posts (used as the News section)
   - scope:
       path: ""
       type: posts
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: true
+      read_time: false
+      comments: false
       share: true
-      related: true
+      related: false
+      show_date: true
   # _pages
   - scope:
       path: "_pages"

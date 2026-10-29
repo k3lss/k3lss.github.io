@@ -1,0 +1,35 @@
+# Talks and posters, newest first. Shown on /talks/.
+#
+# Fields:
+#   type:      "Talk", "Flash talk" or "Poster"
+#   title:     title of the contribution
+#   authors:   (optional) author list
+#   event:     name of the conference or seminar
+#   event_url: (optional) link to the event
+#   location:  city, country
+#   date:      YYYY-MM-DD (used for sorting and grouping by year)
+#   dates:     (optional) text shown instead of the date, e.g. "18–20 November 2025"
+#   pdf:       (optional) slides or poster in /assets/files/
+#   thumbnail: (optional) preview image in /assets/images/talks/
+
+- type: Flash talk
+  title: "The lack of PNG response of zero-bias tracers"
+  authors: "C. Merino, S. Avila, A. G. Adame, A. Anguren"
+  event: "XI Meeting on Fundamental Cosmology"
+  event_url: "https://cosmo2025.unican.es/"
+  location: "Santander, Spain"
+  date: 2025-11-19
+  dates: "19 November 2025"
+  pdf: "/assets/files/talks/2025-11_cosmo_santander_flash_talk.pdf"
+  thumbnail: "/assets/images/talks/2025-11_cosmo_santander_flash_talk.jpg"
+
+- type: Poster
+  title: "The lack of PNG response of zero-bias tracers"
+  authors: "C. Merino, S. Avila, A. G. Adame, A. Anguren"
+  event: "XI Meeting on Fundamental Cosmology"
+  event_url: "https://cosmo2025.unican.es/"
+  location: "Santander, Spain"
+  date: 2025-11-18
+  dates: "18–20 November 2025"
+  pdf: "/assets/files/posters/2025-11_cosmo_santander.pdf"
+  thumbnail: "/assets/images/talks/2025-11_cosmo_santander.jpg"

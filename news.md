@@ -1,7 +1,8 @@
 ---
 layout: posts
-permalink: /posts/
-title: "Posts"
+permalink: /news/
+title: "News"
 author_profile: true
-entries_layout: grid
+entries_layout: list
+classes: wide
 ---

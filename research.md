@@ -40,10 +40,10 @@ to zero for $$|b_1|<1$$. The complex density-based selection makes the clusterin
 
 Publications:
 <ul>
-    <li>Merino C, Avila S, Adame AG, Anguren A, Gonzalez-Perez V, Meneses-Rizo J (2026). Unclustered tracers remain unclustered: the lack of primordial
-    non-Gaussianity response of bias-zero tracers. <em>Astronomy &amp; Astrophysics</em>, 707, L15.
-    <a href="https://doi.org/10.1051/0004-6361/202558825">doi.org/10.1051/0004-6361/202558825</a>
-    (<a href="https://arxiv.org/abs/2602.04698">arXiv:2602.04698</a>)</li>
+{% assign project_papers = site.data.publications.papers | where: "project", "png-zero-bias" %}
+{% for paper in project_papers %}
+  {% include publication.html paper=paper %}
+{% endfor %}
 </ul>
 
 Datasets &amp; Software:

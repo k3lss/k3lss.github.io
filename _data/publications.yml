@@ -1,0 +1,25 @@
+# Publications, newest first. Shown on /publications/.
+# The author name in `me` is shown in bold in the author list.
+#
+# Fields:
+#   title, authors, journal, volume, pages, year
+#   doi:   (optional) DOI without the https://doi.org/ prefix
+#   arxiv: (optional) arXiv identifier
+#   code:  (optional) link to the code
+#   note:    (optional) short extra text, e.g. "Letter" or "submitted"
+#   project: (optional) research project it belongs to; papers with
+#            project "png-zero-bias" are also listed on /research/
+
+me: "Merino C"
+
+papers:
+  - title: "Unclustered tracers remain unclustered: the lack of primordial non-Gaussianity response of bias-zero tracers"
+    authors: "Merino C, Avila S, Adame AG, Anguren A, Gonzalez-Perez V, Meneses-Rizo J"
+    journal: "Astronomy & Astrophysics"
+    volume: 707
+    pages: "L15"
+    year: 2026
+    doi: "10.1051/0004-6361/202558825"
+    arxiv: "2602.04698"
+    code: "https://github.com/k3lss/zero_bias"
+    project: "png-zero-bias"
