@@ -1,0 +1,30 @@
+# Schools, courses and meetings attended, newest first. Shown on /talks/.
+#
+# Fields:
+#   type:      School, Course, Meeting, ...
+#   title:     name of the event
+#   url:       (optional) link to the event
+#   location:  institution, city, country
+#   date:      YYYY-MM-DD (used for sorting)
+#   dates:     (optional) text shown instead of the date, e.g. "28 September – 2 October 2026"
+#   topics:    (optional) short description of the contents
+
+- type: School
+  title: "IAA-CSIC Severo Ochoa School on Artificial Intelligence and Machine Learning in Astronomy"
+  url: "https://www.granadacongresos.com/ai-ml"
+  location: "Instituto de Astrofísica de Andalucía, Granada, Spain"
+  date: 2026-09-28
+  dates: "28 September – 2 October 2026"
+  topics: "Machine learning for radio source classification, large-scale structure, gamma-ray astronomy, unsupervised learning for surveys and interferometric image reconstruction."
+
+- type: Meeting
+  title: "Barcelona-Madrid Cosmology Meeting"
+  location: "CIEMAT, Madrid, Spain"
+  date: 2025-01-27
+  dates: "27–28 January 2025"
+
+- type: School
+  title: "Phy6cool: Summer School for Particle Physics, Astroparticle Physics and Cosmology"
+  location: "CIEMAT, Madrid, Spain"
+  date: 2024-06-26
+  dates: "26 June – 5 July 2024"

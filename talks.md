@@ -1,7 +1,7 @@
 ---
 layout: single
 permalink: /talks/
-title: "Talks & Posters"
+title: "Talks, Schools & Meetings"
 author_profile: true
 classes: wide
 ---
@@ -33,6 +33,12 @@ classes: wide
     text-transform: uppercase;
     letter-spacing: 0.05em;
   }
+  .event {
+    margin-bottom: 1.5em;
+  }
+  .event h3 {
+    margin-bottom: 0.3em;
+  }
   @media (max-width: 600px) {
     .talk {
       flex-direction: column;
@@ -45,7 +51,7 @@ classes: wide
 </style>
 
 {% comment %}
-  Entries are read from _data/talks.yml.
+  Entries are read from _data/talks.yml and _data/events.yml.
 {% endcomment %}
 {% assign talks_by_year = site.data.talks | sort: "date" | reverse | group_by_exp: "talk", "talk.date | date: '%Y'" %}
 
@@ -73,3 +79,18 @@ classes: wide
 </div>
 {% endfor %}
 {% endfor %}
+
+{% if site.data.events %}
+<h2 class="archive__subtitle">Schools &amp; Meetings Attended</h2>
+{% assign events = site.data.events | sort: "date" | reverse %}
+{% for event in events %}
+<div class="event">
+  {% if event.type %}<span class="talk__type">{{ event.type }}</span>{% endif %}
+  <h3>{% if event.url %}<a href="{{ event.url }}">{{ event.title }}</a>{% else %}{{ event.title }}{% endif %}</h3>
+  <p>
+    {{ event.location }}. {% if event.dates %}{{ event.dates }}{% else %}{{ event.date | date: "%B %Y" }}{% endif %}.
+    {% if event.topics %}<br>{{ event.topics }}{% endif %}
+  </p>
+</div>
+{% endfor %}
+{% endif %}
