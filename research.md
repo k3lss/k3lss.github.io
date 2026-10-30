@@ -13,13 +13,21 @@ It would be a sign of parity-violating physics beyond the Standard Model, such a
 Recent analyses of the polarization of the Cosmic Microwave Background have reported hints of such a rotation, which makes it important
 to test it with independent probes and at different epochs of the Universe.
 
-In my PhD thesis at the Universidad Complutense de Madrid, under the supervision of Dr. Shane P. O'Sullivan, I use the polarized radio
+In my PhD thesis at the Universidad Complutense de Madrid, *Late-Universe tests of Cosmic Birefringence using radio galaxy polarization*,
+under the supervision of Dr. Shane P. O'Sullivan, I use the polarized radio
 emission of radio galaxies to measure cosmic birefringence through the *standard crosses* method. The idea is to use the relation between
 the structure of radio galaxies and the orientation of their polarization as a reference: if the polarization of distant sources is
 systematically rotated with respect to their structure, that rotation is a measurement of cosmic birefringence.
 
 Since this method relies on large samples of well-characterized sources, I am also developing Machine Learning tools for the large-scale
 classification of radio galaxies, with the aim of building cleaner samples and improving the results obtained with *standard crosses*.
+
+I am a member of the Survey Science Team of [POSSUM](https://possum-survey.org/) (Polarisation Sky Survey of the Universe's Magnetism),
+an international collaboration studying cosmic magnetism with the ASKAP radio telescope. Within POSSUM, I take part in project S033,
+*An independent and complementary test for the CMB birefringence signal using POSSUM polarized radio galaxies*, together with Dr. Fumihiro Naokawa.
+
+My PhD is funded by a PLI predoctoral contract through the project 2022-T1/TIC-23797,
+*Iluminando la red cósmica oscura, desaparecida y magnetizada*, of the Atracción de Talento programme of the Comunidad de Madrid.
 
 ### Primordial Non-Gaussianity response of bias-zero tracers
 
