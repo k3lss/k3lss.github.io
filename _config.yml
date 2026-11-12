@@ -109,18 +109,6 @@ footer:
       url: "https://arxiv.org/a/merino_c_1"
 
 defaults:
-  # _posts (used as the News section)
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: false
-      comments: false
-      share: true
-      related: false
-      show_date: true
   # _pages
   - scope:
       path: "_pages"
